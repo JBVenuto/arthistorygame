@@ -11,14 +11,16 @@ class App extends Component {
     // Go over art.json and rendor the art work on the page
     render() {
         return (
-            {this.state.art.map(art => (
-                <ArtCard 
-                    id={art.id}
-                    key={art.id}
-                    name={art.name}
-                    location={art.location}
-                />
-            ))}
+            <Container>
+                {this.state.art.map(art => (
+                    <ArtCard 
+                        id={art.id}
+                        key={art.id}
+                        name={art.name}
+                        location={art.location}
+                    />
+                ))}
+            </Container>
         );
     }
 }
