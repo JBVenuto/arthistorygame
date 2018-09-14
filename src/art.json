@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "bonnet",
+        "location": "../public/images/bonnet.jpg"
+    },
+    {
+        "id": 2,
+        "name": "bowl",
+        "location": "../public/images/bowl.jpg"
+    },
+    {
+        "id": 3,
+        "name": "buddha",
+        "location": "../public/images/buddha.jpg"
+    },
+    {
+        "id": 4,
+        "name": "depasse",
+        "location": "../public/images/depasse.jpg"
+    },
+    {
+        "id": 5,
+        "name": "dove",
+        "location": "../public/images/dove.jpg"
+    },
+    {
+        "id": 6,
+        "name": "eishi",
+        "location": "../public/images/eishi.jpg"
+    },
+    {
+        "id": 7,
+        "name": "kandinsky",
+        "location": "../public/images/kandinsky.jpg"
+    },
+    {
+        "id": 8,
+        "name": "monet",
+        "location": "../public/images/monet.jpg"
+    },
+    {
+        "id": 9,
+        "name": "penfield",
+        "location": "../public/images/penfield.jpg"
+    },
+    {
+        "id": 10,
+        "name": "posada",
+        "location": "../public/images/posada.jpg"
+    },
+    {
+        "id": 11,
+        "name": "roussea",
+        "location": "../public/images/roussea.jpg"
+    },
+    {
+        "id": 12,
+        "name": "spindlewhorl",
+        "location": "../public/images/spindlewhorl.jpg"
+    }
+]
