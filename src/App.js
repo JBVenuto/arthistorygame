@@ -1,7 +1,8 @@
 //Files to import
 import React, { Component } from "react";
 import art from "./art.json";
-import ArtCard from "./components/ArtCard"
+import ArtCard from "./components/ArtCard/ArtCard"
+import Container from "./components/Container/Container";
 
 class App extends Component {
     state = {
