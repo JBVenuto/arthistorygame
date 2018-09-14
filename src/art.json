@@ -2,22 +2,22 @@
     {
         "id": 1,
         "name": "bonnet",
-        "location": "../public/images/bonnet.jpg"
+        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/714168/1728805/main-image"
     },
     {
         "id": 2,
         "name": "bowl",
-        "location": "../public/images/bowl.jpg"
+        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/547212/1217433/main-image"
     },
     {
         "id": 3,
         "name": "buddha",
-        "location": "../public/images/buddha.jpg"
+        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/38977/99197/main-image"
     },
     {
         "id": 4,
         "name": "depasse",
-        "location": "../public/images/depasse.jpg"
+        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/654636/1359196/main-image"
     },
     {
         "id": 5,
@@ -32,7 +32,7 @@
     {
         "id": 7,
         "name": "kandinsky",
-        "location": "../public/images/kandinsky.jpg"
+        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/369093/1530215/main-image"
     },
     {
         "id": 8,
