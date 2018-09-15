@@ -1,9 +1,9 @@
 //Files to import
 import React, { Component } from "react";
 import art from "./art.json";
-import ArtCard from "./components/ArtCard/ArtCard"
-import Container from "./components/Container/Container";
-import Randomizer from "./"
+import ArtCard from "./components/ArtCard"
+import Container from "./components/Container";
+import Randomizer from "./components/Randomizer"
 
 class App extends Component {
     state = {
