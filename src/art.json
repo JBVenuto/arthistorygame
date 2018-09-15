@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "bonnet",
-        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/714168/1728805/main-image"
+        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/714200/1728811/main-image"
     },
     {
         "id": 2,
@@ -12,7 +12,7 @@
     {
         "id": 3,
         "name": "buddha",
-        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/38977/99197/main-image"
+        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/38232/146354/main-image"
     },
     {
         "id": 4,
@@ -22,12 +22,12 @@
     {
         "id": 5,
         "name": "dove",
-        "location": "../public/images/dove.jpg"
+        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/488528/1008300/main-image"
     },
     {
         "id": 6,
         "name": "eishi",
-        "location": "../public/images/eishi.jpg"
+        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/55044/140924/main-image"
     },
     {
         "id": 7,
@@ -37,26 +37,26 @@
     {
         "id": 8,
         "name": "monet",
-        "location": "../public/images/monet.jpg"
+        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437137/796091/main-image"
     },
     {
         "id": 9,
         "name": "penfield",
-        "location": "../public/images/penfield.jpg"
+        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/339232/774364/main-image"
     },
     {
         "id": 10,
         "name": "posada",
-        "location": "../public/images/posada.jpg"
+        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/717601/1629015/main-image"
     },
     {
         "id": 11,
-        "name": "roussea",
-        "location": "../public/images/roussea.jpg"
+        "name": "rousseau",
+        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437512/800400/main-image"
     },
     {
         "id": 12,
-        "name": "spindlewhorl",
-        "location": "../public/images/spindlewhorl.jpg"
+        "name": "vase",
+        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/771056/1795657/main-image"
     }
 ]
