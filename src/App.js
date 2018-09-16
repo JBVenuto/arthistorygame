@@ -4,6 +4,7 @@ import art from "./art.json";
 import ArtCard from "./components/ArtCard"
 import Container from "./components/Container";
 import Randomizer from "./components/Randomizer";
+import Clicked from "./components/Clicked";
 
 class App extends Component {
     state = {
@@ -19,6 +20,7 @@ class App extends Component {
                         id={Randomizer.id}
                         key={Randomizer.id}
                         name={Randomizer.name}
+                        onClick={Clicked}
                         location={Randomizer.location}
                     />
                 ))}
