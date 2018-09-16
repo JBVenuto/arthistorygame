@@ -5,23 +5,17 @@ import ArtCard from "./components/ArtCard"
 import Container from "./components/Container";
 import Randomizer from "./components/Randomizer";
 // import Counter from "./components/Counter";
-import Navbar from ".components/Navbar";
 
 class App extends Component {
     state = {
         Randomizer,
-        Counter
+        // Counter
     };
 
     // Go over art.json and rendor the art work on the page
     render() {
         return (
             <Container>
-            {/* //     {this.state.Counter(Counter => ( */}
-            //         <Navbar 
-            //             count={Counter.score}                      
-                    />
-            //     ))}
                 {this.state.Randomizer.map(Randomizer => (
                     <ArtCard 
                         id={Randomizer.id}
