@@ -1,61 +1,73 @@
 [
     {
         "id": 1,
+        "key": 1,
         "name": "bonnet",
         "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/714200/1728811/main-image"
     },
     {
         "id": 2,
+        "key": 2,
         "name": "bowl",
         "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/547212/1217433/main-image"
     },
     {
         "id": 3,
+        "key": 3,
         "name": "buddha",
         "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/38232/146354/main-image"
     },
     {
         "id": 4,
+        "key": 4,
         "name": "depasse",
         "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/654636/1359196/main-image"
     },
     {
         "id": 5,
+        "key": 5,
         "name": "dove",
         "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/488528/1008300/main-image"
     },
     {
         "id": 6,
+        "key": 6,
         "name": "eishi",
         "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/55044/140924/main-image"
     },
     {
         "id": 7,
+        "key": 7,
         "name": "kandinsky",
         "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/369093/1530215/main-image"
     },
     {
         "id": 8,
+        "key": 8,
         "name": "monet",
         "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437137/796091/main-image"
     },
     {
         "id": 9,
+        "key": 9,
         "name": "penfield",
         "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/339232/774364/main-image"
     },
     {
         "id": 10,
+        "key": 10,
         "name": "posada",
         "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/717601/1629015/main-image"
     },
     {
         "id": 11,
+        "key": 11,
         "name": "rousseau",
         "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437512/800400/main-image"
     },
     {
         "id": 12,
+        "key": 12,
         "name": "vase",
         "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/771056/1795657/main-image"
     }

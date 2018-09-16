@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import art from "./art.json";
 import ArtCard from "./components/ArtCard"
 import Container from "./components/Container";
-import Randomizer from "./components/Randomizer"
+import Randomizer from "./components/Randomizer";
 
 class App extends Component {
     state = {
@@ -14,7 +14,7 @@ class App extends Component {
     render() {
         return (
             <Container>
-                {this.state.Randomizer.map(art => (
+                {this.state.Randomizer.map(Randomizer => (
                     <ArtCard 
                         id={Randomizer.id}
                         key={Randomizer.id}

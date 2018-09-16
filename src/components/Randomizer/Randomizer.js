@@ -9,6 +9,8 @@ const Randomizer = arrayShuffle(art);
 
 console.log(Randomizer);
 
+export default Randomizer;
+
 // // Function that puts the array from art.json into a random order
 // const Randomizer = (art) => (
 //     let currentIndex = art.length;
@@ -29,5 +31,3 @@ console.log(Randomizer);
 //     return art;
 
 // );
-
-export default Randomizer;
