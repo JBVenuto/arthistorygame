@@ -1,7 +1,9 @@
 // Import React and the information for the clicked picture
 // import React from "react";
 
+// const Coutner = props => (
 
+// )
 
 // const Counter = props => (
 //     let score = {props.score};

@@ -5,7 +5,7 @@ import arrayShuffle from "array-shuffle";
 
 console.log(art);
 
-const Randomizer = arrayShuffle(art);
+let Randomizer = arrayShuffle(art);
 
 console.log(Randomizer);
 
