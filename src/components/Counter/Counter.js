@@ -1,8 +1,11 @@
 // Import React and the information for the clicked picture
 // import React from "react";
 
-// const Coutner = props => (
+// let guessed = []
+// count = 0;
 
+// const Counter = props => (
+//     id={props.btnId}
 // )
 
 // const Counter = props => (

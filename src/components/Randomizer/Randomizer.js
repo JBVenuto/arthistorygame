@@ -3,8 +3,6 @@ import React from "react";
 import art from "../../art.json";
 import arrayShuffle from "array-shuffle";
 
-console.log(art);
-
 let Randomizer = arrayShuffle(art);
 
 console.log(Randomizer);
