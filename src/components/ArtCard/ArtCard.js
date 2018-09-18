@@ -1,5 +1,6 @@
 import React from "react";
 import Counter from "../Counter";
+// import "./ArtCard.css";
 
 const ArtCard = props => (
     <div className="card">
