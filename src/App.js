@@ -2,6 +2,8 @@
 import React, { Component } from "react";
 import art from "./art.json";
 import ArtCard from "./components/ArtCard"
+import Navbar from "./components/Navbar"
+import Score from "./components/Score"
 import Container from "./components/Container";
 import Randomizer from "./components/Randomizer";
 import Counter from "./components/Counter";
@@ -14,14 +16,19 @@ class App extends Component {
         Counter,
         guessed: [],
         count:0,
-        art
+        art,
+        shuffledArt: arrayShuffle(art)
     };
 
+    //Handles what happens when a picture is clicked on
     btnClick = event => {
         // preventDefault();
         const btnId = event.target.id;
         console.log(btnId);
-        // this.state.guessed.push(btnId);
+        // Reshuffle the order of the pictures
+        this.state.shuffledArt = arrayShuffle(this.state.art);
+        console.log(this.state.shuffledArt);
+        // Check to see if the clicked on picture has already beeen guessed
         let a = this.state.guessed.indexOf(btnId);
         if (a == -1) {
             this.state.guessed.push(btnId);
@@ -38,28 +45,25 @@ class App extends Component {
         
     }
 
-    // shuffle = (art) => {
-    //     console.log(art);
-    //     let Randomizer = arrayShuffle(art);
-    //     console.log(Randomizer);
-    //     // return Randomizer;
-    //     // export default Randomizer;
-    // }
-
 
     // Go over art.json and rendor the art work on the page
     render() {
         return (
             <Container>
-                {this.state.Randomizer.map(Randomizer => (
+                {/* <Navbar> */}
+                    <Score 
+                        count={this.state.count}
+                    />
+                {/* </Navbar> */}
+                {this.state.shuffledArt.map( shuffledArt =>
                     <ArtCard 
-                        id={Randomizer.id}
-                        key={Randomizer.id}
-                        name={Randomizer.name}
-                        location={Randomizer.location}
+                        id={shuffledArt.id}
+                        key={shuffledArt.id}
+                        name={shuffledArt.name}
+                        location={shuffledArt.location}
                         onClick={this.btnClick.bind(this)}
                     />
-                ))}
+                )}
             </Container>
         );
     }
