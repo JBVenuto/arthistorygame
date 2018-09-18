@@ -24,7 +24,7 @@ class App extends Component {
     btnClick = event => {
         // preventDefault();
         const btnId = event.target.id;
-        console.log(btnId);
+        console.log("selected art: " + btnId);
         // Reshuffle the order of the pictures
         this.state.shuffledArt = arrayShuffle(this.state.art);
         console.log(this.state.shuffledArt);
@@ -33,7 +33,7 @@ class App extends Component {
         if (a == -1) {
             this.state.guessed.push(btnId);
             this.state.count++
-            console.log(this.state.count);
+            console.log("Score: " + this.state.count);
 
         }
         else {
