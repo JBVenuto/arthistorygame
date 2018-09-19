@@ -26,19 +26,19 @@ class App extends Component {
         const btnId = event.target.id;
         console.log("selected art: " + btnId);
         // Reshuffle the order of the pictures
-        this.state.shuffledArt = arrayShuffle(this.state.art);
+        this.setState({ shuffledArt: arrayShuffle(this.state.art) });
         console.log(this.state.shuffledArt);
         // Check to see if the clicked on picture has already beeen guessed
         let a = this.state.guessed.indexOf(btnId);
-        if (a == -1) {
+        if (a === -1) {
             this.state.guessed.push(btnId);
-            this.state.count++
+            this.setState({ count: this.state.count = 1 });
             console.log("Score: " + this.state.count);
 
         }
         else {
             alert("You guessed wrong");
-            this.state.count = 0;
+            this.setState({ count: 0 })
             console.log(this.state.count);
         }
         console.log(this.state.guessed);
