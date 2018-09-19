@@ -32,7 +32,7 @@ class App extends Component {
         let a = this.state.guessed.indexOf(btnId);
         if (a === -1) {
             this.state.guessed.push(btnId);
-            this.setState({ count: this.state.count = 1 });
+            this.setState({ count: this.state.count + 1 });
             console.log("Score: " + this.state.count);
 
         }
