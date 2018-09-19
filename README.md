@@ -5,3 +5,6 @@ This is a memory game that uses popular pieces of art throughout history. The go
 ------
 ## Technology Used
 The game is build as a way to help learn and understand React. Because of this it focuses heavily on the React library which uses JavaScrip, CSS, JSX, and HTML. I also use BootStrap in this application. The art comes from The Met's collection of open access artworks.
+------
+## Screenshot
+![Screenshot](./public/images/screenshot.jpg)
