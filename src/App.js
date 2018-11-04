@@ -8,6 +8,7 @@ import Container from "./components/Container";
 import Randomizer from "./components/Randomizer";
 import Counter from "./components/Counter";
 import arrayShuffle from "array-shuffle";
+import InstructionsBtn from "./components/InstructionsBtn/InstructionsBtn";
 
 
 class App extends Component {
@@ -17,7 +18,8 @@ class App extends Component {
         guessed: [],
         count:0,
         art,
-        shuffledArt: arrayShuffle(art)
+        shuffledArt: arrayShuffle(art),
+        instReq: false
     };
 
     //Handles what happens when a picture is clicked on
@@ -45,16 +47,24 @@ class App extends Component {
         
     }
 
+    // instructActivate = event => {
+    //     // event.preventDefault();
+    //     console.log(event);
+    //     alert("instructions button clicked");
+    //     console.log("instructions button clicked");
+    // }
+
 
     // Go over art.json and rendor the art work on the page
     render() {
         return (
             <Container>
-                {/* <Navbar> */}
+                <Navbar>
                     <Score 
                         count={this.state.count}
                     />
-                {/* </Navbar> */}
+                    <InstructionsBtn />
+                </Navbar>
                 {this.state.shuffledArt.map( shuffledArt =>
                     <ArtCard 
                         id={shuffledArt.id}

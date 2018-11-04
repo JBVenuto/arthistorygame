@@ -9,7 +9,7 @@
         "id": 2,
         "key": 2,
         "name": "bowl",
-        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/547212/1217433/main-image"
+        "location": "../public/images/bowl.jpg"
     },
     {
         "id": 3,
@@ -39,7 +39,7 @@
         "id": 7,
         "key": 7,
         "name": "kandinsky",
-        "location": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/369093/1530215/main-image"
+        "location": "../public/images/kandinsky.jpg"
     },
     {
         "id": 8,

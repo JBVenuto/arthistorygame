@@ -1,11 +1,9 @@
 import React from "react";
 import "./Navbar.css";
 
-const Navbar = () => (
+const Navbar = props => (
   <nav className="navbar navbar-dark bg-dark">
-    <a className="navbar-brand" href="/">
-      Museum Fun
-    </a>
+    {props.children} 
   </nav>
 );
 
