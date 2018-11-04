@@ -2,10 +2,11 @@ import React, { Component } from "react";
 
 class InstructionsBtn extends Component {
 
-    instructActivate = event => {
+    instructActivate = props => {
         // event.preventDefault();
-        console.log(event);
+        // console.log(event);
         alert("instructions button clicked");
+        // alert("instructions requested is " + {props.instReq});
         console.log("instructions button clicked");
     }
     render() {

@@ -6,7 +6,13 @@ const ArtCard = props => (
     <div className="card">
         
             <div className="img-container">
-                <img alt={props.name} src={props.location} id={props.id} onClick={props.onClick} width="250px" height="300px"/>
+                <img 
+                    alt={props.name} 
+                    src={process.env.PUBLIC_URL + props.location} 
+                    id={props.id} 
+                    onClick={props.onClick} 
+                    width="250px" height="300px"
+                />
             </div>
         
     </div>

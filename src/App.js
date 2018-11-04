@@ -63,7 +63,9 @@ class App extends Component {
                     <Score 
                         count={this.state.count}
                     />
-                    <InstructionsBtn />
+                    <InstructionsBtn 
+                        instRequested={this.state.instReq}
+                    />
                 </Navbar>
                 {this.state.shuffledArt.map( shuffledArt =>
                     <ArtCard 
