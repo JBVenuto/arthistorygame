@@ -9,6 +9,7 @@ import Randomizer from "./components/Randomizer";
 import Counter from "./components/Counter";
 import arrayShuffle from "array-shuffle";
 import InstructionsBtn from "./components/InstructionsBtn/InstructionsBtn";
+import Instructions from "./components/Instructions/Instructions";
 
 
 class App extends Component {
@@ -47,12 +48,11 @@ class App extends Component {
         
     }
 
-    // instructActivate = event => {
-    //     // event.preventDefault();
-    //     console.log(event);
-    //     alert("instructions button clicked");
-    //     console.log("instructions button clicked");
-    // }
+    instructActivate = event => {
+        // event.preventDefault();
+        this.state.instReq = !this.state.instReq;
+        this.setState({ instRequested: this.state.instReq });
+    }
 
 
     // Go over art.json and rendor the art work on the page
@@ -65,8 +65,12 @@ class App extends Component {
                     />
                     <InstructionsBtn 
                         instRequested={this.state.instReq}
+                        onClick={this.instructActivate.bind(this)}
                     />
                 </Navbar>
+                <Instructions 
+                    instRequested={this.state.instReq}
+                />
                 {this.state.shuffledArt.map( shuffledArt =>
                     <ArtCard 
                         id={shuffledArt.id}
