@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./instruction.css";
 
 // class Instructions extends Component {
 //     state = {
@@ -50,8 +51,8 @@ import React, { Component } from "react";
 const Instructions = (props) => {
     if (props.instRequested) { 
         return (
-            <div>
-                <p>Test your memory by trying to click on each picture without clicking on any picture more than once. They pictures will change their order after each click.</p>
+            <div className="instContainer">
+                <p>Test your memory by trying to click on each picture without clicking on any picture more than once. The pictures will change their order after each click.</p>
             </div>
         )
     }
