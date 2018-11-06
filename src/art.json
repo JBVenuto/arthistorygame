@@ -27,48 +27,48 @@
         "id": 5,
         "key": 5,
         "name": "dove",
-        "location": "./images/dove.jpg"
+        "location": "/images/dove.jpg"
     },
     {
         "id": 6,
         "key": 6,
         "name": "eishi",
-        "location": "./images/eishi.jpg"
+        "location": "/images/eishi.jpg"
     },
     {
         "id": 7,
         "key": 7,
         "name": "kandinsky",
-        "location": "./images/kandinsky.jpg"
+        "location": "/images/kandinsky.jpg"
     },
     {
         "id": 8,
         "key": 8,
         "name": "monet",
-        "location": "./images/monet.jpg"
+        "location": "/images/monet.jpg"
     },
     {
         "id": 9,
         "key": 9,
         "name": "penfield",
-        "location": "./images/penfield.jpg"
+        "location": "/images/penfield.jpg"
     },
     {
         "id": 10,
         "key": 10,
         "name": "posada",
-        "location": "./images/posada.jpg"
+        "location": "/images/posada.jpg"
     },
     {
         "id": 11,
         "key": 11,
         "name": "rousseau",
-        "location": "./images/roussea.jpg"
+        "location": "/images/roussea.jpg"
     },
     {
         "id": 12,
         "key": 12,
         "name": "vase",
-        "location": "./images/spindlewhorl.jpg"
+        "location": "/images/spindlewhorl.jpg"
     }
 ]
