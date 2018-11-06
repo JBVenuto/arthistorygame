@@ -36,12 +36,15 @@ class App extends Component {
         if (a === -1) {
             this.state.guessed.push(btnId);
             this.setState({ count: this.state.count + 1 });
-            console.log("Score: " + this.state.count);
-
+            if (this.state.count % 12 === 11) {
+                alert("Great job! You clicked them all. See if you can do it again.");
+                this.setState({ guessed: [] });
+            }
         }
         else {
             alert("You guessed wrong");
-            this.setState({ count: 0 })
+            this.setState({ count: 0 });
+            this.setState({ guessed: [] });
             console.log(this.state.count);
         }
         console.log(this.state.guessed);
