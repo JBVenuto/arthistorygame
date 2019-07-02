@@ -1,6 +1,15 @@
 {
-  "main.css": "static/css/main.e75174f1.css",
-  "main.css.map": "static/css/main.e75174f1.css.map",
-  "main.js": "static/js/main.21b60369.js",
-  "main.js.map": "static/js/main.21b60369.js.map"
+  "files": {
+    "main.css": "/arthistorygame/static/css/main.04f6ea82.chunk.css",
+    "main.js": "/arthistorygame/static/js/main.1ecfa015.chunk.js",
+    "main.js.map": "/arthistorygame/static/js/main.1ecfa015.chunk.js.map",
+    "runtime~main.js": "/arthistorygame/static/js/runtime~main.e642a80b.js",
+    "runtime~main.js.map": "/arthistorygame/static/js/runtime~main.e642a80b.js.map",
+    "static/js/2.09f939e4.chunk.js": "/arthistorygame/static/js/2.09f939e4.chunk.js",
+    "static/js/2.09f939e4.chunk.js.map": "/arthistorygame/static/js/2.09f939e4.chunk.js.map",
+    "index.html": "/arthistorygame/index.html",
+    "precache-manifest.b197dad07c945d3f0429c3cf37e748b7.js": "/arthistorygame/precache-manifest.b197dad07c945d3f0429c3cf37e748b7.js",
+    "service-worker.js": "/arthistorygame/service-worker.js",
+    "static/css/main.04f6ea82.chunk.css.map": "/arthistorygame/static/css/main.04f6ea82.chunk.css.map"
+  }
 }
